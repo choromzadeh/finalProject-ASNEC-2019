@@ -13,17 +13,13 @@ TargetEdges = []
 WeightEdges = [1000]
 
 endNodes=[]
+print(WeightEdges[10])
 
-
-for x in range(2,10):
-    print(str(sheetDataSet['A' + str(x)].value) + str(sheetDataSet['B' + str(x)].value))
-    ccc=0
-    for y in range(x,10):
-        if str(sheetDataSet['A' + str(x)].value) + str(sheetDataSet['B' + str(x)].value) == str(sheetDataSet['A' + str(y)].value) + str(sheetDataSet['B' + str(y)].value):
-            sheetDataSet['A' + str(y)] = '...'
-            sheetDataSet['B' + str(y)] = '...'
-            ccc += 1
-    print(ccc)
+# for x in range(1,8000):
+#     for y in range(x,8000):
+#         if str(sheetDataSet['A' + str(x)].value) + str(sheetDataSet['B' + str(x)].value) == str(sheetDataSet['A' + str(y)].value) + str(sheetDataSet['B' + str(y)].value):
+#
+#
 # for x in range(len(SourceEdges)):
 #     edgesSheet['A' + str(x+1)] = SourceEdges[x]
 #     edgesSheet['B' + str(x+1)] = TargetEdges[x]
@@ -34,7 +30,7 @@ for x in range(2,10):
 # print(edgesSheet['A1'].value + edgesSheet['B1'].value)
 # print(SourceEdges[0] + TargetEdges[0] + str(WeightEdges[0]))
 
-# edgesWorkBook.save('S1-edges.xlsx')
+edgesWorkBook.save('S1-edges.xlsx')
 # SourceEdges = []
 # TargetEdges = []
 
