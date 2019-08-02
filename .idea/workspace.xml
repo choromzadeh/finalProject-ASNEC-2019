@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44827c06-e7bd-416a-b552-155d6d7e270f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ASNEC-T2-Questions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ASNEC-T2-Questions.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S1-edges.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/S1-edges.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edge-S1.py" beforeDir="false" afterPath="$PROJECT_DIR$/edge-S1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/networks/scenarios-info.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/networks/scenarios-info.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporsts/initial reduction.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporsts/knime workflow.svg" beforeDir="false" />
-    </list>
+    <list default="true" id="44827c06-e7bd-416a-b552-155d6d7e270f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edge-S1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -35,10 +28,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/networks/scenario1/code/node-S1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/networks/scenario2/code/edge-S2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="391">
               <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/networks/scenario3/code/edge-S3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="25" column="49" lean-forward="true" selection-end-line="73" />
+            <state relative-caret-position="408">
+              <caret line="25" column="49" selection-end-line="73" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -249,16 +247,18 @@
       <updated>1564654192137</updated>
       <workItem from="1564654193587" duration="15051000" />
       <workItem from="1564687613524" duration="4860000" />
+      <workItem from="1564746999490" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19911000" />
+    <option name="totallyTimeSpent" value="20510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,32 +309,35 @@
     <entry file="file://$PROJECT_DIR$/networks/scenario2/code/node-S2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/edge-S1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/networks/scenario2/code/edge-S2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="391">
           <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/networks/scenario3/code/edge-S3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="49" lean-forward="true" selection-end-line="73" />
+        <state relative-caret-position="408">
+          <caret line="25" column="49" selection-end-line="73" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edge-S1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/networks/scenario1/code/node-S1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
